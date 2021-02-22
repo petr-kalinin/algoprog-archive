@@ -17,7 +17,6 @@ import {UserNameRaw} from '../../client/components/UserName'
 import awaitAll from '../../client/lib/awaitAll'
 
 import * as downloadSubmits from "../cron/downloadSubmits"
-import * as groups from '../informatics/informaticsGroups'
 import InformaticsUser from '../informatics/InformaticsUser'
 
 import download, {getStats} from '../lib/download'
