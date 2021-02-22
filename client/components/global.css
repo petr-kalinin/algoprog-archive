@@ -1,0 +1,59 @@
+.mainTable_div {
+    overflow: auto;
+}
+.mainTable {
+    border-left:1px solid black;
+    border-top:1px solid black;
+    margin-bottom: 10px;
+    white-space: nowrap;
+    border-collapse: separate;
+}
+.mainTable_td {
+    border-bottom:1px solid black;
+    border-right:1px solid black;
+    padding: 3px;
+    text-align: center;
+    min-width: 3ex;
+}
+.mainTable_th {
+    border-bottom:1px solid black;
+    border-right:1px solid black;
+    position: sticky;
+    left: 0;
+    background: white;
+}
+.mainTable_user {
+    text-align: left;
+    z-index: 1;
+}
+.border {
+    background:black;
+    padding:0px;
+    border-right:3px solid black;
+    border-bottom:1px solid black;
+    min-width: 0px;
+}
+.ac {
+    background: #44ff44;
+}
+.darkac {
+    background: #00cf00;
+}
+.ok {
+    background: #ffff00;
+}
+.darkok {
+    background: #d1d100;
+}
+.wa {
+    background: #ff4444;
+}
+.ig {
+    background: #aaaaff;
+}
+.dq, .dq_text {
+    background: black !important;
+}
+.dq_text {
+    color: white;
+}

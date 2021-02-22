@@ -1,0 +1,25 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+@media (min-width: 768px) {
+body {
+    padding-top: 50px;
+}
+}
+@media (max-width: 768px) {
+.navbar-fixed-top, .navbar-fixed-bottom {
+    position: relative !important;
+}
+}
+.panel-heading a {
+    cursor: pointer;
+}
+
+.panel-dq_text {
+    background: black !important;
+}
+.panel-dq_text {
+    color: white;
+}
