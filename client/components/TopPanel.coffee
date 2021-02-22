@@ -193,7 +193,7 @@ class TopPanel extends React.Component
                     }
                 </Navbar.Form>
             </Navbar>
-            ###
+            {###
             {
             @props.myUser?.dormant && <DormantWarning handleClose={@props.logout}/>
             }
@@ -203,7 +203,7 @@ class TopPanel extends React.Component
             {
             not @props.myUser?.dormant and @state.showUnpaid && <UnpaidWarning handleClose={@closeUnpaid} blocked={unpaidBlocked(@props.myUser)} myUser={@props.myUser}/>
             }
-            ###
+            ###}
         </div>
 
 options =
